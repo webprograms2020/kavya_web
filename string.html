@@ -1,0 +1,43 @@
+<html>
+<head>
+<script>
+var str="Good Morning";
+var len=str.length;
+document.write("1.Length is",len);
+document.write("<br>");
+var pos=str.search("morning");
+document.write("2.position is of morning is at",pos);
+document.write("<br>");
+var rep=str.replace("Morning","evening");
+document.write("3.good morning is changed to",rep);
+document.write("<br>");
+var upper=str.toUpperCase();
+document.write("4.to uppercase:",upper);
+document.write("<br>");
+var lower=str.toLowerCase();
+document.write("5.to Lowercase:",lower);
+document.write("<br>");
+var str2="Students";
+var str3=str.concat("",str2);
+document.write("6.",str);
+document.write("<br>",str2);
+document.write("<br>After Concatenation:",str3);
+document.write("<br>");
+var ch=str.substring(0,4);
+document.write("7.substring:",ch);
+document.write("<br>");
+var ch1=str.charAt(0);
+document.write("8.character at 0th position",str,"is",ch1);
+document.write("<br>");
+var ch2=str.substring(1,4);
+document.write("9.substring",ch2);
+document.write("<br>");
+document.write("10.",str3);
+var str4=str3.slice(5,12);
+document.write("<br>");
+document.write(str4);
+</script>
+</head>
+<body>
+</body>
+</html>
